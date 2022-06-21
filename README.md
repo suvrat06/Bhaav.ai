@@ -24,11 +24,11 @@ In the second part, sentiment analysis is performed by an LSTM model that has be
 Finally, the system comes together with the UI that has been devised using streamlit. <br><br>
 
 **Sample Use Case-1:** <br>
-A text in Hindi was fed as an input to the system. The following depicts the output. Clearly, the dominant sentiment was found to be Negative. <br>
+A text in Hindi was fed as an input to the system. The following depicts the output. Clearly, the dominant sentiment was found to be Negative. <br><br>
 ![Sample Output-1 (Source Language: Hindi)](GUI_Screenshots/Sample_Output_1.png)
 <br>
 **Sample Use Case-2:** <br>
-A text in Urdu was fed as an input to the system. The following depicts the output. Clearly, the dominant sentiment was found to be Positive. <br>
+A text in Urdu was fed as an input to the system. The following depicts the output. Clearly, the dominant sentiment was found to be Positive. <br><br>
 ![Sample Output-1 (Source Language: Hindi)](GUI_Screenshots/Sample_Output_2.png)
 
 **Note:** <br> If the following error occurs while running FrontEnd.py:
