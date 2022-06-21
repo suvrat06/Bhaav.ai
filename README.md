@@ -24,10 +24,12 @@ In the second part, sentiment analysis is performed by an LSTM model that has be
 Finally, the system comes together with the UI that has been devised using streamlit. <br><br>
 
 **Sample Use Case-1:** <br>
-A text in Hindi was fed as an input to the system. The following depicts the output. Clearly, the dominant sentiment was found to be Negative.
-
+A text in Hindi was fed as an input to the system. The following depicts the output. Clearly, the dominant sentiment was found to be Negative. <br>
+![Sample Output-1 (Source Language: Hindi)](GUI_Screenshots/Sample_Output_1.png)
+<br>
 **Sample Use Case-2:** <br>
-A text in Urdu was fed as an input to the system. The following depicts the output. Clearly, the dominant sentiment was found to be Positive.
+A text in Urdu was fed as an input to the system. The following depicts the output. Clearly, the dominant sentiment was found to be Positive. <br>
+![Sample Output-1 (Source Language: Hindi)](GUI_Screenshots/Sample_Output_2.png)
 
 **Note:** <br> If the following error occurs while running FrontEnd.py:
 "ImportError: cannot import name 'pad_sequences' from 'keras.preprocessing.sequence' ", please consider changing 'keras.preprocessing.sequence' to 'keras_preprocessing.sequence'
